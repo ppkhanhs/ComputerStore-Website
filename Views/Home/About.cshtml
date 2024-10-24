@@ -1,0 +1,199 @@
+﻿
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<!-- About Section -->
+<section id="about" class="about section" style="margin-top:100px">
+
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="who-we-are">Về LAPZONE </h2>
+                <h3>Nơi hiện thực hóa giấc mơ công nghệ của bạn</h3>
+                <p class="fst-italic">
+                    LapZone ra đời với mong muốn trở thành điểm đến tin cậy dành cho các tín đồ công nghệ,
+                    mang đến những sản phẩm máy tính và phụ kiện hiện đại nhất, phù hợp với nhu cầu cá nhân và doanh nghiệp.
+                    Chúng tôi cam kết mang đến cho bạn trải nghiệm công nghệ tuyệt vời và đẳng cấp!
+                </p>
+                <ul>
+                    <li><i class="bi bi-check-circle"></i> <span>Hàng ngàn mẫu máy tính xách tay đa dạng..</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Chất lượng cao cấp, cấu hình mạnh mẽ, thiết kế hiện đại.</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Dịch vụ tư vấn chuyên nghiệp, đội ngũ nhân viên tận tâm.</span></li>
+                    <li><i class="bi bi-check-circle"></i> <span>Giá cả hợp lý, nhiều chương trình khuyến mãi hấp dẫn.</span></li>
+                </ul>
+                <a href="#" class="read-more"><span>Khám phá thêm</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+
+            <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+                <img src="../../Content/img/about-company-1.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
+                <h3>Sứ mệnh của chúng tôi</h3>
+                <p class="fst-italic">
+                    LapZone luôn tâm niệm: "Sự hài lòng của khách hàng là thước đo thành công của chúng tôi".
+                    Với mục tiêu trở thành điểm đến uy tín hàng đầu cho những ai yêu thích công nghệ,
+                    chúng tôi không ngừng nỗ lực để mang đến những giá trị tốt nhất cho khách hàng.
+                </p>
+                <ul>
+                    <li>
+                        <i class="bi bi-check-circle"></i> <span>
+                          Mang đến sự lựa chọn đa dạng và phong phú: LapZone cung cấp nhiều lựa chọn 
+                            về cấu hình, thiết kế, thương hiệu để bạn có thể tìm được chiếc máy tính phù hợp nhất.
+                        </span>
+                    </li>
+                    <li>
+                        <i class="bi bi-check-circle"></i> <span>
+                            Luôn đảm bảo chất lượng hoàn hảo:  Mỗi sản phẩm được kiểm tra kỹ càng 
+                            trước khi bán, đảm bảo chất lượng tốt nhất, mang đến trải nghiệm tuyệt vời cho bạn.
+                        </span>
+                    </li>
+                    <li>
+                        <i class="bi bi-check-circle"></i> <span>
+                            Cung cấp dịch vụ tận tâm:  Đội ngũ nhân viên của LapZone
+                            luôn nhiệt tình, chu đáo và hỗ trợ bạn trong suốt quá trình sử dụng sản phẩm.
+                        </span>
+                    </li>
+                    <li>
+                        <i class="bi bi-check-circle"></i> <span>
+                            Cam kết giá cả hợp lý:  Chúng tôi luôn cố gắng mang đến mức giá phù hợp
+                            nhất cho khách hàng, cùng nhiều chương trình ưu đãi hấp dẫn.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section><!-- /About Section -->
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section light-background">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Lời cảm ơn từ khách hàng</h2>
+        <p>Những lời khen ngợi và chia sẻ của khách hàng là động lực to lớn giúp LapZone ngày càng phát triển.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 1,
+                      "spaceBetween": 40
+                    },
+                    "1200": {
+                      "slidesPerView": 3,
+                      "spaceBetween": 1
+                    }
+                  }
+                }
+            </script>
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>
+                            "Cảm ơn LapZone đã giúp tôi tìm được chiếc laptop đúng với nhu cầu của mình! Máy tính hoạt động rất mượt mà, đáp ứng tốt công việc và giải trí. Nhân viên tư vấn cực kỳ chuyên nghiệp và nhiệt tình."
+                        </p>
+                        <div class="profile mt-auto">
+                            <img src="../../Content/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <h3>Chú Tư</h3>
+                            <h4>Khách hàng </h4>
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>
+                            "Tôi đã rất ấn tượng với sự đa dạng và chất lượng sản phẩm tại LapZone. Các dòng máy tính từ gaming đến laptop văn phòng đều có mặt, giá cả lại rất hợp lý. Tôi đã mua một chiếc laptop gaming ở đây và rất hài lòng."
+                        </p>
+                        <div class="profile mt-auto">
+                            <img src="../../Content/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                            <h3>Đoàn Di Băng</h3>
+                            <h4>Khách hàng thân thiết </h4>
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>
+                            "LapZone có dịch vụ chăm sóc khách hàng tuyệt vời. Tôi đã mua một bộ PC để làm việc và chơi game tại đây, sản phẩm chất lượng rất tốt, thiết kế đẹp và cấu hình mạnh. Chắc chắn tôi sẽ quay lại để mua thêm phụ kiện."
+                        </p>
+                        <div class="profile mt-auto">
+                            <img src="../../Content/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                            <h3>Chị Bảy</h3>
+                            <h4>Khách hàng</h4>
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>
+                            "Tôi đã rất ấn tượng với sự chuyên nghiệp của LapZone. Các sản phẩm được cập nhật
+                            thường xuyên, mẫu mã đa dạng và giá cả hợp lý."
+                        </p>
+                        <div class="profile mt-auto">
+                            <img src="../../Content/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                            <h3>Cristiano Penaldo</h3>
+                            <h4>Khách hàng</h4>
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>
+                            "Phải nói là không có gì để chê về Lapzone cả. Các sản phẩm quá tốt , mẫu mã đa dạng và giá cả hợp lý."
+                        </p>
+                        <div class="profile mt-auto">
+                            <img src="../../Content/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                            <h3>Bruce Lee</h3>
+                            <h4>Khách hàng</h4>
+                        </div>
+                    </div>
+                </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+</section><!-- /Testimonials Section -->
